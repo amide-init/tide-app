@@ -19,6 +19,11 @@ function App() {
         setValue(0);
       }
      } >Reset</button>
+     <button onClick={
+      () => {
+        setValue(value - 1);
+      }
+     } >Minus</button>
     </>
   )
 }
