@@ -18,7 +18,7 @@ function App() {
       () => {
         setValue(0);
       }
-     } >Add</button>
+     } >Reset</button>
     </>
   )
 }
