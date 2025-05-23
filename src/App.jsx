@@ -29,6 +29,11 @@ function App() {
         setValue(value + 3);
       }
      } >Add 3</button>
+     <button onClick={
+      () => {
+        setValue(value + 2);
+      }
+     } >Add 2</button>
     </>
   )
 }
